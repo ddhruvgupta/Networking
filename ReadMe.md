@@ -17,7 +17,7 @@ Figure 2: The client application sending the server a string in lower
 canse and recieving the value converted to upper case. The user is
 limited to 10 tries.
 
-[Question 1\_Grad Student]{.underline}
+## Multi-threading ##
 
 Files: client\_mt.py, server\_mt.py
 
@@ -37,15 +37,14 @@ height="3.129283683289589in"}
 
 Figure 5: Client 2 connecting to server
 
-![](./media/image6.png){width="4.538511592300963in"
-height="2.2222222222222223in"}
+![](./media/image6.png){ width="4.538511592300963in" height="2.2222222222222223in" }
 
 Figure 6: Server side shows closing connections with each user, uniquely
 identified by the port. Multi-threading shifts the communication from
 the specified port to another port automatically for each client
 connection.
 
-# Client-server program to work like an ATM machine using UDP protocol.
+## Client-server program to work like an ATM machine using UDP protocol.
 
 Files: udp\_server.py, udp\_client.py, users.csv
 
